@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+ http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	version="2.4">
+	<servlet>
+		<servlet-name>oauth servlet</servlet-name>
+		<servlet-class>servlet.OAuthServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>oauth servlet</servlet-name>
+		<url-pattern>/OAuth.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>oauth_verify servlet</servlet-name>
+		<servlet-class>servlet.VerifyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>oauth_verify servlet</servlet-name>
+		<url-pattern>/verify.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>oauth_verify servlet</servlet-name>
+		<servlet-class>servlet.VerifyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>oauth_verify servlet</servlet-name>
+		<url-pattern>/verify.do/</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>save settings servlet</servlet-name>
+		<servlet-class>servlet.SettingsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>save settings servlet</servlet-name>
+		<url-pattern>/settings.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>sync servlet</servlet-name>
+		<servlet-class>servlet.SynchServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sync servlet</servlet-name>
+		<url-pattern>/sync.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>fast sync servlet</servlet-name>
+		<servlet-class>servlet.FastSynchServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fast sync servlet</servlet-name>
+		<url-pattern>/fastSync.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>JSONServlet servlet</servlet-name>
+		<servlet-class>servlet.JSONServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>JSONServlet servlet</servlet-name>
+		<url-pattern>/ProgressBarServlet</url-pattern>
+	</servlet-mapping>
+</web-app> 

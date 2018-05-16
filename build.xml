@@ -1,5 +1,5 @@
-<project name="connect" default="deploy" basedir=".">
-	<property name="war_dir" location="WebContent" />
+<project name="connector" default="deploy" basedir=".">
+	<property name="war_dir" location="war" />
 	<property name="deploy_dir" location="\Users\Andres\Documents\tomcat9\webapps" />
 	<target name="init" description="remove war-file">
 		<delete file="${ant.project.name}.war" />
