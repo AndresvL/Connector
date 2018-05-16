@@ -1,0 +1,107 @@
+.showDetails {
+	font-size: 110%;
+}
+
+.affix {
+	top: 90%;
+	width: 100%;
+	z-index: 9997 !important;
+}
+
+.affix+.container-fluid {
+	padding-top: 70px;
+}
+
+.modal {
+	z-index: 9999 !important;
+}
+
+#loginContent {
+	width: 400px;
+}
+
+.panel-heading {
+	background-color: #3D4A5D !important;
+	color: white !important;
+	font-size: 16px !important;
+}
+
+#WBA-section {
+	padding: 20px 10px;
+	background-color: #3D4A5D;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-color: #fff;
+}
+
+#WBA_logo {
+}
+
+#boekhoud_logo {
+	float: right;
+}
+.settings {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.log {
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+
+#refresh_knop {
+	float: right;
+	position: relative;
+	bottom: 5px;
+}
+
+#help {
+	float: right;
+	margin-right: 10px;
+	background-color: #6599C8;
+	border-color: #fff !important;
+}
+
+#loginButton {
+	background-color: #6599C8;
+	border-color: #fff !important;
+}
+
+#show {
+	float: right;
+	background-color: #6599C8;
+	border-color: #fff !important;
+}
+
+#savebutton {
+	margin-right: 10px;
+	background-color: #6599C8;
+	float: right;
+	border-color: #fff !important;
+}
+
+#syncbutton {
+	float: right;
+	background-color: #6599C8;
+	margin-right: 10px;
+	border-color: #fff !important;
+}
+
+.image img {
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+	-moz-transition: all 1s ease; /* Firefox */
+	-ms-transition: all 1s ease; /* IE 9 */
+	-o-transition: all 1s ease; /* Opera */
+	transition: all 1s ease;
+}
+
+.image:hover img {
+	-webkit-transform: scale(1.90); /* Safari and Chrome */
+	-moz-transform: scale(1.90); /* Firefox */
+	-ms-transform: scale(1.90); /* IE 9 */
+	-o-transform: scale(1.90); /* Opera */
+	transform: scale(1.90);
+}
